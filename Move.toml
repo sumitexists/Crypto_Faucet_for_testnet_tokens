@@ -1,0 +1,15 @@
+[package]
+name = "Crypto_Faucet_for_testnet_tokens"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x684ffcaf7fe06660a9f27a5e2d2db92acf931d36ebaf9b024c6a742a35328219"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
